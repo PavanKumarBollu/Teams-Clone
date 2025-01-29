@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams-Clone</title>
+
+
+    <!-- Css Styles  -->
+     <!-- genaral styles -->
+     <link rel="stylesheet" href="styles/genaral.css">
+     <!-- navigation styles -->
+     <link rel="stylesheet" href="styles/top-navigation.css">
+     <link rel="stylesheet" href="styles/side-navigation.css">
+
+     <!-- page main content -->
+      <link rel="stylesheet" href="styles/page-body-genaral.css">
+      <link rel="stylesheet" href="styles/chats-mini-view.css">
+      <link rel="stylesheet" href="styles/chat-full-view.css">
+
+
+      <!-- tab-view styles-->
+       <link rel="stylesheet" href="styles/TabviewStyles/tabviewqueries.css">
+
+      <!-- mini screen styles -->
+       <link rel="stylesheet" href="styles/mini-top-nav.css">
+
+
+</head>
+<body>
+     <header class="nav-container">
+        <nav class="top-nav-container dis-flex">
+            
+            <div class="nav-left dis-flex">
+                <a href="#" class="menu-container"><img src="assets/menu-black.png" alt="Menu" class="menu icon"></a>
+                <img src="assets/teams.png" alt="Teams" class="teams icon">
+            </div>
+            <div class="nav-mid dis-flex">
+                <input type="text" placeholder="Search (CTRL + ALT + R)" class="user-input">
+                <img src="assets/search-black.png" alt="search" class="search icon">
+            </div>
+            <div class="nav-right dis-flex">
+                <img src="assets/more-black.png" alt="more" class="more icon-s">
+                <a href="#" class="profile-container"><img src="assets/people-black.png" alt="profile" class="profile icon-s"></a>
+            </div>
+        </nav> 
+        
+        
+        
+    </header>
+
+<div class="page-body-container dis-flex">
+    <div class="side-nav-bar">
+        <nav class="side-nav-container ">
+
+            <div class="notification-container dis-flex">
+                <img src="assets/notification-black.png" alt="notification" class="notification icon">
+                <p class="msg">Activity</p>
+            </div>
+            <div class="chat-container">
+                <img src="assets/chat-black.png" alt="chat" class="chat icon">
+                <p class="msg">Chat</p>
+            </div>
+            <div class="more-container">
+                <img src="assets/more-black.png" alt="more" class="more icon" >
+                <p class="msg">More</p>
+            </div>
+            <div class="apps-container">
+                <img src="assets/plus-black.png" alt="apps" class="apps icon">
+                <p class="msg">Apps</p>
+            </div>
+            
+    
+        </nav>
+    </div>
+    
+    <div class="page-content-container dis-flex">
+        <div class="left-container ">
+
+            <div class="top dis-flex">
+                <div class="top-left">
+                    <h3>Chat</h3>
+                </div>
+                <div class="top-right dis-flex">
+                    <img src="assets/more-black.png" alt="more" class="more icon-s">
+                    <img src="assets/sort-black.png" alt="filter" class="filter icon-s">
+                    <img src="assets/new-chat-black.png" alt="new-chat-black" class="new-chat icon-s">
+                </div>
+            </div>
+            <nav class="mini-nav-container mini-display-flex">
+                <div class="mini-left mini-display-flex">
+                    <div class="mini-profile-container">
+                        <p class="user-name">PK</p>
+                    </div>
+                    <h4 class="title">Chat</h4>
+                </div>
+                <div class="mini-right">
+                    <img src="assets/sort-black.png" alt="filter" class="mini-filter mini-screen-icon">
+                    <img src="assets/search-black.png" alt="search" class="mini-search mini-screen-icon">
+                    <img src="assets/more-black.png" alt="mini-more" class="mini-more mini-screen-icon">
+                </div>
+            </nav>
+
+
+            <div class="chats-container">
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">23/08</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : Hi</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-container dis-flex">
+                    <div class="user-profile-container dis-flex">
+                        <div class="">PK</div>
+                    </div>
+                    <div class="user-details-container ">
+                        <div class="username-container dis-flex">
+                            <p class="user-name">Pavan Kumar B</p>
+                            <p class="time-date">3/10</p>
+                        </div>
+                        <div class="massage">
+                            <p class="last-massage">You : HRU..</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="right-container">
+             <div class="top dis-flex">
+                <div class="top-left dis-flex">
+                    <a href="#" class="current-user-container"><img src="assets/people-black.png" alt="person-profile" class="current-user icon-s"></a>
+                    <h4 class="user-name">User Name </h4>
+                    <a href="#" class="chat">Chat</a>
+                    <a href="#" class="shared">Shared</a>
+                </div>
+                <div class="top-right dis-flex">
+                    <img src="assets/more-black.png" alt="more" class="more icon-s">
+                    <div class="line"></div>
+                    <img src="assets/close-details-black.png" alt="close-details" class="close-details icon-s">
+                </div>
+            </div>
+
+           
+
+            <div class="full-chat ">
+                <div class="user-sen dis-flex">
+                    <div class="user-profile">
+                        <p>PK</p>
+                    </div>
+                    <div class="user-msg">
+                        <div class="text-msg-container"><p>Hello</p></div>
+                        <div class="text-msg-container"><p>How Are You..?</p></div>
+                        <div class="text-msg-container"><p>How Are You..? Long Time No See</p></div>
+                        <div class="text-msg-container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+                       
+                    </div>
+                </div>
+                <div class="user-rec dis-flex">
+                    <div class="user-rec-msg " dir="rtl">
+                        <div class="text-msg-container"><p dir="ltr">Hello</p></div>
+                        <div class="text-msg-container"><p dir="ltr">How Are You .?</p></div>
+                        <div class="text-msg-container"><p dir="ltr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus vero illum,</p></div>
+                    </div>
+                    <div class="ack">
+                        <img src="assets/check-black.png" alt="check" class="check-mark" width="10px">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="bottom-search-container dis-flex">
+                <div class="search-container">
+                    <input type="text" placeholder="Type a message">
+                </div>
+                <div class="actions-container dis-flex">
+                    <img src="assets/emoji-black.png" alt="emoji" class="emoji icon-s">
+                    
+                    <img src="assets/plusnocircle-black.png" alt="plus" class="plus icon-s">
+                    <div class="v-line"></div>
+                    <img src="assets/send-black.png" alt="send" class="send icon-s">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="javascript/tab-view-script.js"></script>
+</body>
+</html>

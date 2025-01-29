@@ -1,0 +1,26 @@
+/* Teams Body Container */
+.page-body-container {
+    height: 100%;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.page-body-container .page-content-container
+{
+    position: relative;
+    background-color: #ccced1;
+    /* width: calc(100% - 70px); */
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;  
+}
+
+
+
+@media screen and (max-width:700px)
+{
+    .page-body-container
+    {
+        margin-top: 0;
+    }
+}

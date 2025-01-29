@@ -1,0 +1,44 @@
+/* styles ranges from the width between 700pc to 950 px */
+
+
+
+
+@media screen and (min-width:700px) and (max-width:950px) {
+    
+.page-content-container .left-container
+{
+    /* background-color: red; */
+    background-color: #ccced1;
+    width: 35%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index:10;
+}
+
+
+.page-content-container .right-container
+{
+    width: 100%;
+}
+
+.side-nav-bar{
+    /* font-size: 30px; */
+}
+
+
+
+
+
+}
+
+
+@media screen and (min-width:700Px)and (max-width:950px) and  (hover:hover){
+.page-body-container .side-nav-bar .side-nav-container:hover
+{
+    z-index: 10;
+    /* background-color: pink; */
+}
+}

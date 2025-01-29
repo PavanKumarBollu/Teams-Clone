@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+
+}
+
+body{
+    height: calc(100% - 50px);
+}
+
+img
+{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon
+{
+    width: 25px;
+}
+.icon-s
+{
+    width: 20px;
+}
+
+.dis-flex
+{
+    display: flex;
+    align-items: center;
+    /* display flex will applies to only the child elements no to the grandchilds */
+}
+
+.msg
+{
+    margin-top: 5px;
+    font-size: 10px;
+}
+
